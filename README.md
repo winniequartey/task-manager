@@ -2,12 +2,19 @@
 A simple CRUD app to manage tasks built with FastAPI
 
 ### How to run
+Create and activiate virtual environment
+```
+$ python3 -m venv venv
+$ source venv/bin/activate
+$ export PYTHONPATH=$PWD
+```
+
 Install the dependencies required to run the app
 ```
-$ pip install -r requirements.txt
+(venv)$ pip3 install -r requirements.txt
 ```
 
 Run the app
 ```
-$ python app/main.py
+(venv)$ python3 app/main.py
 ```
